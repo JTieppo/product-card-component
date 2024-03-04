@@ -12,7 +12,7 @@ export default function Home() {
     }
     return (
         <main className="flex min-h-screen flex-col items-center justify-between text-black bg-[#F2EAE2]">
-            <div className="flex flex-col my-auto md:flex-row rounded-lg mt-8 mb-8 p-4">
+            <div className="flex flex-col md:my-auto md:flex-row rounded-lg my-8 p-4">
                 <img src="/img/image-product-desktop.jpg" className="hidden md:flex rounded-l-lg max-w-96" alt="" />
                 <img src="/img/image-product-mobile.jpg" className="md:hidden max-w-96 rounded-t-lg" alt="" />
                 <div className="flex flex-col p-8 max-w-96 bg-white rounded-b-lg md:rounded-b-none md:rounded-r-lg">
